@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { "Applikey Solutions" => "welcome@applikeysolutions.com" }
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/AppliKeySolutions/PandoraPlayer.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/aurda012/PandoraPlayer.git", :tag => "#{s.version}" }
 
   s.source_files = "Player", "Player/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
